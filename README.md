@@ -8,6 +8,8 @@ source venv/bin/activate   # On macOS or Linux
 ```
 2. Install required packages
 ```
+python -m pip install flask
+
 python -m pip install requests
 ```
 3. Start the flask application
