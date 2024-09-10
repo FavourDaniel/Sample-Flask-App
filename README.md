@@ -4,13 +4,11 @@ To run the app, you need to have Python and pip installed on your machine, then 
 ## Steps to run Flask app
 1. Activate your virtual environment (if not already activated)
 ```
-source venv/bin/activate   # On macOS or Linux
+source .venv/bin/activate   # On macOS or Linux
 ```
 2. Install required packages
 ```
-python -m pip install flask
-
-python -m pip install requests
+pip install -r requirements.txt
 ```
 3. Start the flask application
 ```
